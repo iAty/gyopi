@@ -1,0 +1,22 @@
+.home {
+    background-color: #eeeeee;
+}
+
+.contact {
+    background-color: antiquewhite;
+}
+
+.logo {
+    display: block;
+    max-width: 110px;
+}
+
+.primary-menu .mobile-menu {
+    display: none;
+}
+
+@media sreen and (max-widht: 767px) {
+    .primary-menu .mobile-menu {
+       
+    }
+}
