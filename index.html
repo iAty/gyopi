@@ -26,11 +26,22 @@
     <meta property="og:site_name" content="IMDb" />
     <meta property="og:video" content="http://example.com/bond/trailer.swf" />
 
+    <!-- twitter protocol-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@nytimesbits" />
+    <meta name="twitter:creator" content="@nickbilton" />
+    <meta property="og:url" content="http://bits.blogs.nytimes.com/2011/12/08/a-twitter-for-my-sister/" />
+    <meta property="og:title" content="A Twitter for My Sister" />
+    <meta property="og:description"
+        content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
+    <meta property="og:image"
+        content="http://graphics8.nytimes.com/images/2011/12/08/technology/bits-newtwitter/bits-newtwitter-tmagArticle.jpg" />
+
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
 
     <!-- favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/icons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
@@ -59,63 +70,67 @@
         </ul>
     </nav>
 
-    <header class="header gyopi-header">
-        <div class="container">
-            <div class="row align-item-end">
-                <div class="col-md-3">
-                    <a href="#" class="logo">
-                        <img src="img/logo.png" alt="Gyopárosfürdő Gyógy-, Park- és Élményfürdő">
-                    </a>
-                </div>
-
-                <div class="col-md-9">
-                    <nav class="primary-menu">
-                        <a aria-label="mobil navigációs gomb" href="javascript:void(0);" class="mobile-menu">
-                            <i class="ti-menu"></i>
+    <body class="home-two">
+        <header class="header abs-header pt-3">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-md-3">
+                        <a href="index.html" class="logo">
+                            <img src="images/logo.jpeg" alt="Gyopárosfürdő Gyógy-, Park- és Élményfürdő">
                         </a>
-                        <ul>
-                            <li>
-                                <a href="#about">Rólunk</a>
-                            </li>
-                            <li>
-                                <a href="#service">Szolgáltatások</a>
-                            </li>
-                            <li>
-                                <a href="#contact">Elérhetőség</a>
-                            </li>
-                        </ul>
+                    </div>
+                    <div class="col-md-9">
+                        <nav class="primary-menu" role="navigation">
+                            <a href="javascript:void(0);" class="mobile-menu"><i class="ti-menu"></i></a>
+                            <ul>
+                                <li><a href="#">Rólunk</a></li>
+                                <li><a href="#">Szolgáltatások</a></li>
+                                <li><a href="#">Elérhetőségeink</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+ 
+        <main id="main" role="main">
 
-                    </nav>
+            <section class="banner">
+
+                <div class="spa-img">
+                    <img src="img/" alt="Gyopárosfürdő">
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-9">
+                            <div class="banner-content">
+                                <span>Gyopáros</span>
+                                <h2>Gyopárosfürdő Gyógy-, Park- és Élményfürdő</h2>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque dolorem deleniti
+                                    nobis eligendi consectetur architecto, hic ipsa nam aliquid sapiente eum quam,
+                                    accusamus incidunt qui doloremque quo ex sunt nostrum? </p>
+                                <a class="video-btn" data-fancybox href="#">
+                                    <i class="ti-control-play"></i> Imázsfilm</a>
+                            </div>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
-            </div>
+            </section>
 
-        </div>
-
-    </header>
-
-    <main>
-
-        <section style="display: none;">
-
-            <h1>Gyopárosfürdő Gyógy-, Park- és Élményfürd</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dignissimos minima unde assumenda,
-                doloribus animi nihil nesciunt perferendis non laborum dolorum sunt esse neque expedita temporibus
-                voluptatum ratione mollitia. Deleniti.</p>
-
-        </section>
+        </main>
 
 
-    </main>
+        <!-- JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.fancybox.min.js"></script>
 
-
-    <!-- JS -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-
-</body>
+    </body>
 
 </html>
